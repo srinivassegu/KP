@@ -28,7 +28,7 @@ public class Log4jservlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		logger.setLevel(Level.FATAL);
 		logger.debug("Logging Debug message");
-		logger.error("Logging error message");
+		logger.error("Logging error message by KP");
 		logger.info("Logging information message");
 		logger.warn("Logging warning message");
 		logger.fatal("Logging Fatal message");
